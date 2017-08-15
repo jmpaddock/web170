@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Theme Name: Jonathan Paddock Summer 2017 WordPress Theme
+Author: JM Paddock
+Auhtor URI: http://www.ultan.photography/
+Description: This is a Demo WordPress Theme that I created so that I may complete my training under Yoda, unlike Luke, and become a Jedi Master... just like Mike. 
+Version 1.0
+*/
+
+.outer-wrap{
+  width:96%; 
+  margin:0 auto;
+background:white;
+}
+
+.header-image img{
+    margin-top: .5em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+    width:98.7%;
+}
+.combo-menu{
+background: #2D2929;    
+    
+}
+.sub-menu {
+	padding: .4em 1em;
+	color: white;
+	background: #2D2929;
+}
+
+.sub-menu ul{
+    list-style-type: none; 
+    margin: 0;
+	padding: 0;
+    
+    }
+
+.sub-menu li{
+font-size: 1.4em; 
+margin-right: 0.9em; 
+ 
+}
+
+.sub-menu a{
+    color:#e5dbbc;
+    text-decoration: none;
+}
+
+.search{
+background: #2D2929;    
+ padding-right:0.5em;   
+}
+
+
+.search input{
+    font-size: 1em;
+    background: #E5DBBC;
+}
+
+
+.sidebar {
+	padding: .5em 1.4em 3em;
+	background: #AFA870;
+    overflow: hidden;
+}
+
+.main-menu {
+    padding-bottom: 1em;
+}
+
+.main-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu li{
+  font-size: 220%  
+    
+}
+
+.main-menu a {
+	display: block;
+	padding: .4em 0;
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+	padding: .4em 1em;
+	background: hsl(0, 0%, 20%);
+	color: white;
+}
+
+.card {
+	background: white;
+	margin-bottom: 1em;    
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.thumbnail{
+width:100%;
+}
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.card-content p {
+	font-size: 95%;
+}
+
+.drycider img{
+width:100%;    
+    
+}
+.cider-content{
+  padding: 1.4em;  
+}
+
+.cider-content a{
+   color: white;
+    padding: 0.3em;
+}
+
+.add-tocart-button{
+margin-left: 3em;
+font-size: 1.2em;
+ background: black;
+}
+
+
+.footer-area {
+	padding: .4em .5em;
+	text-align: center;
+	background: #2D2929;
+}
+
+.footer-area ul{
+list-style-type: none;    
+margin: 0;
+pading: 0;
+}
+
+.footer-area li{
+font-size: 1.5em; 
+margin-right: 0.9em; 
+ color:#e5dbbc;
+}
+
+.icon a{
+  padding-right:.5em;
+  
+}
+
+.footer-utility ul{
+    list-style-type: none;    
+margin: 0;
+pading: 0;
+}
+
+.footer-utility li{
+   font-size: 1.4em; 
+
+}
+
+.footer-utility li a{
+     color:#e5dbbc; 
+    text-decoration: none;
+}
+
+.banner-ad{
+width:80%;
+padding: 1em;
+margin-top: 3.5em;
+    
+}
+/* Form & Fieldset Styles */
+
+.accounts{
+width:100%;
+padding:1%;    
+}
+.accounts fieldset{
+padding:5%;    
+}
+.login input{
+width:100%;   
+font-size: 1.2em;
+margin-top: 0.3em;
+}
+
+.create-account input{
+  width:100%;   
+font-size: 1.2em;
+margin-top: 0.3em;  
+    
+}
+.lower-account input{
+width:40%;      
+}
+
+.card input{
+width:30%;    
+}
+
+.expire input{
+    width:30%;
+}
+
+button{
+margin-top: 0.5em;    
+width:20%;
+
+}
+
+button a{
+text-decoration: none; 
+color:black;
+}
+.login-button{
+ font-size: 1.2em; 
+}
+
+
+.summary{
+width:100%;
+padding:1%;    
+}
+
+.cart-menu ul{
+list-style-type: none;    
+border-bottom: solid; 
+   
+}
+
+.cart-menu li{
+display: inline;       
+}
+
+.ciders ul{
+    list-style-type: none;    
+}
+
+.ciders li{
+    font-size: 1.4em;
+   margin-top: 10%;
+}
+
+.summary form{
+ padding-bottom: 1%;
+border-bottom: solid;    
+    
+}
+
+.tax ul{
+  list-style-type: none;  
+ 
+}
+
+.tax li{
+font-size: 1.4em;
+margin-top: 10%;
+   
+}
+
+.tax span{
+  margin-left: 7em;  
+}
+
+.shipping{
+border-top: solid;    
+}
+
+.shipping ul{
+   list-style-type: none;  
+}
+
+.shipping li{
+  font-size: 1.4em;
+margin-top: 10%;  
+}
+
+.shipping span{
+    margin-left:4em;
+}
+
+.order-total{
+    border-top:solid;
+}
+.order-total ul{
+   list-style-type: none; 
+}
+
+.order-total li{
+   font-size: 1.4em;
+margin-top: 11%;  
+}
+
+.order-total span{
+margin-left:4em;
+}
+
+.thank-you fieldset{
+width:100%;    
+    
+}
+
+.thank-you h1{
+font-size: 2.5em    
+}
+
+/* Flexbox stuff */
+
+@media screen and (min-width:1000px) {
+    
+    .outer-wrap {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .content {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .combo-menu{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        
+    }
+    
+    .sub-menu ul{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .sub-menu li{
+        flex: 1 0 auto;
+    }
+    
+    .search{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .search form {
+        align-self: center;
+        flex: 1 0 11em;
+    }
+    
+    .main-area {
+        -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    
+    .header-image img{
+        display:flex;
+    
+    }
+   
+    .cards{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: .5em
+    }
+    
+    
+    .order-accounts{
+       display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .cart-menu ul{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ciders li{
+         display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between; 
+        
+    }
+    
+    .lower-account {
+       display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .expire{
+       display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        
+    }
+
+    .text{
+       display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .thank-you{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; 
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+    
+    .card{
+    display:flex;
+    flex: 0 1 calc(33% - 1em);    
+    }
+    
+    .thumbnail{
+        display:flex;
+        }
+    
+    
+    .sidebar {
+        -webkit-flex: 0 0 12em;
+            -ms-flex: 0 0 12em;
+                flex: 0 0 12em;
+        -webkit-order: 0;
+            -ms-flex-order: 0;
+                order: 0;
+    }
+    
+    .footer-area{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; 
+        justify-content: space-between;
+    }
+    
+    .footer-area li{
+     display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;  
+       justify-content: flex-start;
+    }
+    
+    .footer-text{
+        display:flex;
+        align-self: center;
+    }
+    
+    .icon{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; 
+        flex-wrap:wrap;
+    }
+    
+    .icon a {
+        flex: 1 0 1.5em;
+        align-self: center;
+    }
+    
+    .footer-utility ul{
+       display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;  
+        justify-content: flex-end;
+    }
+    
+    .footer-utility {
+        display: flex;
+        align-self: center;
+    }
+    
+}
+
