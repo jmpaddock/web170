@@ -21,11 +21,48 @@ register_nav_menus(array(
 
 ));
 
-// Create Post Thumbnails
+// Add Support for Featured Images
 add_theme_support( 'post-thumbnails' );
 
 // Create Page Excerpts
 add_post_type_support( 'page', 'excerpt' );
+
+//Custom SEO Title Tag
+function get_my_title_tag() {
+    
+    global $post; //This is important, because of Variable Scope.  This variable must be decalared as a global.
+    
+    if ( is_front_page() || is_home()) {  //front or blog page
+    
+        bloginfo('description'); 
+    
+    } 
+    
+    elseif ( is_page() || is_single()) { //page or single post
+    
+        echo get_the_title();  
+    
+    } 
+
+    else { 
+        
+        bloginfo('description'); //404,search,etc.
+        
+    }
+    
+    if ( $post->post_parent ) { 
+    
+        echo ' | '; 
+        echo get_the_title($post->post_parent); 
+        
+    }
+	
+    echo ' | '; 
+    bloginfo('name'); 
+    echo ' | '; 
+    echo 'Seattle, WA.'; 
+    
+}
 
 //
 ?>
