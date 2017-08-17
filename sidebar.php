@@ -25,5 +25,10 @@
                 <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
                 <?php endif; ?>
                 <!-- end quote -->
+                
+            <!-- Begin Dynamic Sidebar -->
+                <?php dynamic_sidebar(1); ?>
+            <!-- End Dynamic Sidebar -->
+            
         </div><!-- .sidebar -->
     </div><!-- .content -->
